@@ -46,7 +46,15 @@ input{
     margin: 50px auto;
     flex-wrap: wrap;
 }
-
+select{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
 .pokimon h2 {
     font-size: 26px;
     margin: 10px 0;
@@ -67,7 +75,7 @@ input{
 .input{
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 1000px;
 }
 .clock {
     background: #00ffff;
